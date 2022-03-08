@@ -4,31 +4,31 @@ public class HuevoSorpresaGarciaRivasRaul2122 {
 
     /**
      * @return the precio_maxGarciaRivasRaul2122
-     */
-    public double getPrecio_maxGarciaRivasRaul2122() {
+     */ /*Método que retorna el precio máximo del huevo sorpresa*/
+    public double getPrecio_maxGarciaRivasRaul2122() { 
         return precio_maxGarciaRivasRaul2122;
-    }
+    } 
 
     /**
      * @param precio_maxGarciaRivasRaul2122 the precio_maxGarciaRivasRaul2122 to set
-     */
+     */ /*Método que asigna el precio máximo del huevo sorpresa*/
     public void setPrecio_maxGarciaRivasRaul2122(double precio_maxGarciaRivasRaul2122) {
         this.precio_maxGarciaRivasRaul2122 = precio_maxGarciaRivasRaul2122;
-    }
+    } 
 
     /**
      * @return the precio
-     */
+     */ /*Método que retorna el precio del huevo*/
     public double getPrecio() {
         return precio;
-    }
+    } 
 
     /**
      * @param precio the precio to set
-     */
+     */ /*Método que asigna el precio del huevo*/
     public void setPrecio(double precio) {
         this.precio = precio;
-    }
+    } 
 
     private int unidades;//número de huevos que quedan 
     private double precio;//precio actual de un huevo sorpresa
